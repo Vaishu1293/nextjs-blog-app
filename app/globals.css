@@ -159,6 +159,7 @@ main {
 }
 
 .post img {
+  /* position: relative; */
   width: 8rem;
   height: 6rem;
   object-fit: cover;
@@ -166,6 +167,13 @@ main {
 
 .post-content {
   flex: 1;
+}
+
+.post-image{
+  position: relative;
+  width: 8rem;
+  height: 6rem;
+  object-fit: cover;
 }
 
 .post h2,
